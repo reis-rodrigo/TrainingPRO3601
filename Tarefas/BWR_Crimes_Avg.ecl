@@ -9,7 +9,7 @@ END;
 
 MyTable := SORT(TABLE(Crimes(year BETWEEN 2010 AND 2020),OutRec,Year),year);
 
-OUTPUT(MyTAble);
+OUTPUT(MyTable);
 
 MyAvg := AVE(MyTable,TotalPerYear);
 
